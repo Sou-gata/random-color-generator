@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Random Hex color generate</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="bg"></div>
+        <h1 class="heading">Random color generator</h1>
+        <div class="container">
+            <div class="select-color">
+                <label>Select a type :</label>
+                <select class="select-type">
+                    <option value="1">Gradient</option>
+                    <option value="2">Solid</option>
+                </select>
+            </div>
+            <button class="generate">Generate</button>
+            <div class="colors">
+                <div class="color-one">
+                    <p class="color-value-one clickable">#ff00ff</p>
+                    <p class="dec-one clickable">rgba(0,0,0,0)</p>
+                </div>
+                <div class="color-two">
+                    <p class="color-value-two clickable">#00ffff</p>
+                    <p class="dec-two clickable">rgba(0,0,0,0)</p>
+                </div>
+            </div>
+        </div>
+        <div class="tost" data-tost="0">
+            <p class="tost-text">Copied</p>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
